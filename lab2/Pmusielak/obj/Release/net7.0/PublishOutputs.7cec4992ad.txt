@@ -1,0 +1,7 @@
+C:\Users\Trupek\Documents\Labolatoria\IoT\IoT23_26812\lab2\Pmusielak\bin\Release\net7.0\publish\Pmusielak.exe
+C:\Users\Trupek\Documents\Labolatoria\IoT\IoT23_26812\lab2\Pmusielak\bin\Release\net7.0\publish\appsettings.Development.json
+C:\Users\Trupek\Documents\Labolatoria\IoT\IoT23_26812\lab2\Pmusielak\bin\Release\net7.0\publish\appsettings.json
+C:\Users\Trupek\Documents\Labolatoria\IoT\IoT23_26812\lab2\Pmusielak\bin\Release\net7.0\publish\Pmusielak.dll
+C:\Users\Trupek\Documents\Labolatoria\IoT\IoT23_26812\lab2\Pmusielak\bin\Release\net7.0\publish\Pmusielak.deps.json
+C:\Users\Trupek\Documents\Labolatoria\IoT\IoT23_26812\lab2\Pmusielak\bin\Release\net7.0\publish\Pmusielak.runtimeconfig.json
+C:\Users\Trupek\Documents\Labolatoria\IoT\IoT23_26812\lab2\Pmusielak\bin\Release\net7.0\publish\Pmusielak.pdb
