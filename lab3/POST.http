@@ -1,0 +1,28 @@
+POST https://pmusielak2023.azurewebsites.net/api/PeopleFn?code=vuP9y4ciXiuf-CqWUvG5QmYuR4SirzvCWwzolVJMMdhXAzFuw1r2ww== HTTP/1.1
+content-type: application/json
+
+{
+    "FirstName": "Jan",
+    "LastName": "Nowak"
+}
+
+GET https://pmusielak2023.azurewebsites.net/api/PeopleFn?code=vuP9y4ciXiuf-CqWUvG5QmYuR4SirzvCWwzolVJMMdhXAzFuw1r2ww== HTTP/1.1
+content-type: application/json
+
+{}
+
+DELETE https://pmusielak2023.azurewebsites.net/api/PeopleFn?code=vuP9y4ciXiuf-CqWUvG5QmYuR4SirzvCWwzolVJMMdhXAzFuw1r2ww== HTTP/1.1
+content-type: application/json
+
+{
+    "Id": 1
+}
+
+PUT https://pmusielak2023.azurewebsites.net/api/PeopleFn?code=vuP9y4ciXiuf-CqWUvG5QmYuR4SirzvCWwzolVJMMdhXAzFuw1r2ww== HTTP/1.1
+content-type: application/json
+
+{
+    "Id": 1,
+    "FirstName": "Kamil",
+    "LastName": "Pawlak"
+}
