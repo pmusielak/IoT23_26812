@@ -8,5 +8,9 @@
             },
             "enableLiveMetricsFilters": true
         }
+    },
+    "AllowedHost": "",
+    "ConnectionStrings": {
+        "PeopleDb":"Server=tcp:iot-2023.database.windows.net,1433;Initial Catalog=IoT_2023;Persist Security Info=False;User ID=PMusielak;Password=Wrotki12#;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
     }
 }
