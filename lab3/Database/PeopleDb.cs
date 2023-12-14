@@ -12,17 +12,17 @@ namespace lab3.Database
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            ConfigurePersonEntity(modelBuilder.Entity<PersonEntity>());
+            ConfigurePersonEntity(modelBuilder.Entity<Person>());
             base.OnModelCreating(modelBuilder);
         }
 
-        private void ConfigurePersonEntity(EntityTypeBuilder<PersonEntity> entity)
+        private void ConfigurePersonEntity(EntityTypeBuilder<Person> entity)
         {
             entity.ToTable("Person");
             entity.Property(p => p.FirstName).IsRequired().HasMaxLength(200);
             entity.Property(p => p.LastName).IsRequired().HasMaxLength(200);
         }
 
-        public DbSet<PersonEntity> People {get; set;}
+        public DbSet<Person> People {get; set;}
     }
 }

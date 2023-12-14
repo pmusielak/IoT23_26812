@@ -2,10 +2,10 @@ namespace CdvAzure.Functions
 {
     public class PeopleService
     {
-        private List<Person> people {get;} = new List<Person>();
-        public Person Add(string firstName, string lastName)
+        private List<PersonServiceEntity> people {get;} = new List<PersonServiceEntity>();
+        public PersonServiceEntity Add(string firstName, string lastName)
         {
-            var person = new Person
+            var person = new PersonServiceEntity
             {
                 FirstName = firstName,
                 LastName = lastName,
@@ -15,7 +15,7 @@ namespace CdvAzure.Functions
             return person;
         }
 
-        public Person Update(int id, string firstName, string lastName)
+        public PersonServiceEntity Update(int id, string firstName, string lastName)
         {
             var person = people.First(w => w.Id == id);
             person.FirstName = firstName;
@@ -30,17 +30,17 @@ namespace CdvAzure.Functions
             people.Remove(person);
         }
 
-        public Person Find(int id)
+        public PersonServiceEntity Find(int id)
         {
             return people.First(w => w.Id == id);
         }
 
-        public IEnumerable<Person> Get()
+        public IEnumerable<PersonServiceEntity> Get()
         {
             return people;
         }
     }
-    public class Person
+    public class PersonServiceEntity
     {
         public int Id {get; set;}
         public string FirstName {get; set;}
